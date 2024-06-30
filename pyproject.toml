@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "hw-web-7"
+version = "0.1.0"
+description = ""
+authors = ["Vasyl Radashev <vasiliyradashev24@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.31"
+poetry = "^1.8.3"
+psycopg2 = "^2.9.9"
+alembic = "^1.13.2"
+faker = "^26.0.0"
+base = "^0.0.0"
+automium-web = "^0.1.1"
+teacher = "^0.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
